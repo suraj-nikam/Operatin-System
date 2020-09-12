@@ -465,7 +465,7 @@ drwxrwxrwx 1 Suraj Suraj 4096 Sep  7 23:16 kuru
 drwxrwxrwx 1 Suraj Suraj 4096 Sep  8 22:07 cdac
 
 
-c) Create some hidden files and sub directories and display them using “ls -a”
+c) Create some hidden files and sub directories and display them using Â“ls -aÂ”
 thunder@thunderstrom:~$ cat>.xyz
 this is a hidden file
 thunder@thunderstrom:~$ ls -a
@@ -638,18 +638,18 @@ thunder@thunderstrom:~$ cp -r c b
 cp: cannot stat 'c/.h3': Permission denied
 cp: cannot stat 'c/n3': Permission denied
 
-4.Create the directory  “data“ inside b
+4.Create the directory  Â“dataÂ“ inside b
 thunder@thunderstrom:~$ cd b
 thunder@thunderstrom:~/b$ mkdir data
 
 5.Change the permission of b to read and write only
 thunder@thunderstrom:~$ chmod a=rw b
 
-6.Create directory “data2”  inside b
+6.Create directory Â“data2Â”  inside b
 thunder@thunderstrom:~$ cd b
 -bash: cd: b: Permission denied
 thunder@thunderstrom:~$ mkdir b/data2
-mkdir: cannot create directory ‘b/data2’: Permission denied
+mkdir: cannot create directory Â‘b/data2Â’: Permission denied
 
 7.Create data.txt file inside b
 thunder@thunderstrom:~$ touch b/data.txt
@@ -711,16 +711,4 @@ groupadd: cannot lock /etc/group; try again later.
 25.Try deleting the file
 thunder@thunderstrom:~$ rm -r a b
 thunder@thunderstrom:~$ ls
-Tushar  file.txt  file1.txt  file2.txt  file3.txt  file4.txt  file5.txt  kuru  movies
-© 2020 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+Suraj  file.txt  file1.txt  file2.txt  file3.txt  file4.txt  file5.txt  kuru  movies
